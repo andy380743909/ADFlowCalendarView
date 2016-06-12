@@ -1,0 +1,22 @@
+{
+  "name": "ADFlowCalendarView",
+  "version": "0.1.0",
+  "summary": "A flexible calendar view with three mode Year mode, Month mode, and Week Mode",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/andy380743909/ADFlowCalendarView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Andy Cui": "andy380743909@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/andy380743909/ADFlowCalendarView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source_files": "ADFlowCalendarView/Classes/**/*"
+}

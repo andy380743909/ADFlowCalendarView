@@ -1,0 +1,6 @@
+framework module ADFlowCalendarView {
+  umbrella header "ADFlowCalendarView-umbrella.h"
+
+  export *
+  module * { export * }
+}

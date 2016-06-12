@@ -1,0 +1,723 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
+		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
+		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
+		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
+		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
+		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
+		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
+		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
+		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
+		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
+		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		631356DD7DCE6FB888A90760 /* Pods_ADFlowCalendarView_Example_ADFlowCalendarView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBA6C28C389A424D42F69B45 /* Pods_ADFlowCalendarView_Example_ADFlowCalendarView_Tests.framework */; };
+		D234199D1D050A6400DEEF38 /* ADCalendarMonthModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D234197E1D050A6400DEEF38 /* ADCalendarMonthModeViewController.m */; };
+		D234199E1D050A6400DEEF38 /* ADCalendarWeekModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D23419801D050A6400DEEF38 /* ADCalendarWeekModeViewController.m */; };
+		D234199F1D050A6400DEEF38 /* ADCalendarYearModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D23419821D050A6400DEEF38 /* ADCalendarYearModeViewController.m */; };
+		D23419A01D050A6400DEEF38 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D23419841D050A6400DEEF38 /* AppDelegate.m */; };
+		D23419A11D050A6400DEEF38 /* NVZuesPriceCalendarDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = D23419871D050A6400DEEF38 /* NVZuesPriceCalendarDataSource.m */; };
+		D23419A21D050A6400DEEF38 /* NVZuesPriceCalendarDayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D23419891D050A6400DEEF38 /* NVZuesPriceCalendarDayCell.m */; };
+		D23419A31D050A6400DEEF38 /* NVZuesPriceCalendarDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D234198B1D050A6400DEEF38 /* NVZuesPriceCalendarDelegate.m */; };
+		D23419A41D050A6400DEEF38 /* NVZuesPriceCalendarMonthModeDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = D234198E1D050A6400DEEF38 /* NVZuesPriceCalendarMonthModeDataSource.m */; };
+		D23419A51D050A6400DEEF38 /* NVZuesPriceCalendarMonthModeDayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D23419901D050A6400DEEF38 /* NVZuesPriceCalendarMonthModeDayCell.m */; };
+		D23419A61D050A6400DEEF38 /* NVZuesPriceCalendarMonthModeDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D23419921D050A6400DEEF38 /* NVZuesPriceCalendarMonthModeDelegate.m */; };
+		D23419A71D050A6400DEEF38 /* NVZuesPriceCalendarWeekModeDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = D23419951D050A6400DEEF38 /* NVZuesPriceCalendarWeekModeDataSource.m */; };
+		D23419A81D050A6400DEEF38 /* NVZuesPriceCalendarWeekModeDayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D23419971D050A6400DEEF38 /* NVZuesPriceCalendarWeekModeDayCell.m */; };
+		D23419A91D050A6400DEEF38 /* NVZuesPriceCalendarWeekModeDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D23419991D050A6400DEEF38 /* NVZuesPriceCalendarWeekModeDelegate.m */; };
+		D23419AA1D050A6400DEEF38 /* UIView+Border.m in Sources */ = {isa = PBXBuildFile; fileRef = D234199C1D050A6400DEEF38 /* UIView+Border.m */; };
+		D23419AC1D050C2900DEEF38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D23419AB1D050C2900DEEF38 /* LaunchScreen.storyboard */; };
+		DFBFEF8C39FE3E407E189CD9 /* Pods_ADFlowCalendarView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E282F4AFF881888925D803DD /* Pods_ADFlowCalendarView_Example.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6003F5B3195388D20070C39A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6003F582195388D10070C39A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6003F589195388D20070C39A;
+			remoteInfo = ADFlowCalendarView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07E7FB1D4F6D18BE6FB77617 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3DF2398071C0F5ABC3384703 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6003F58A195388D20070C39A /* ADFlowCalendarView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADFlowCalendarView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6003F595195388D20070C39A /* ADFlowCalendarView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ADFlowCalendarView-Info.plist"; sourceTree = "<group>"; };
+		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6003F59B195388D20070C39A /* ADFlowCalendarView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ADFlowCalendarView-Prefix.pch"; sourceTree = "<group>"; };
+		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6003F5AE195388D20070C39A /* ADFlowCalendarView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADFlowCalendarView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
+		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
+		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		818F65FACBA0CD9148B602E0 /* Pods-ADFlowCalendarView_Example-ADFlowCalendarView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADFlowCalendarView_Example-ADFlowCalendarView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ADFlowCalendarView_Example-ADFlowCalendarView_Tests/Pods-ADFlowCalendarView_Example-ADFlowCalendarView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		991A4D98D9BF558D387C28D7 /* Pods-ADFlowCalendarView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADFlowCalendarView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ADFlowCalendarView_Example/Pods-ADFlowCalendarView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9CD3F33AB56E8AF5C233CCF1 /* ADFlowCalendarView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ADFlowCalendarView.podspec; path = ../ADFlowCalendarView.podspec; sourceTree = "<group>"; };
+		D234197D1D050A6400DEEF38 /* ADCalendarMonthModeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCalendarMonthModeViewController.h; sourceTree = "<group>"; };
+		D234197E1D050A6400DEEF38 /* ADCalendarMonthModeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCalendarMonthModeViewController.m; sourceTree = "<group>"; };
+		D234197F1D050A6400DEEF38 /* ADCalendarWeekModeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCalendarWeekModeViewController.h; sourceTree = "<group>"; };
+		D23419801D050A6400DEEF38 /* ADCalendarWeekModeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCalendarWeekModeViewController.m; sourceTree = "<group>"; };
+		D23419811D050A6400DEEF38 /* ADCalendarYearModeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCalendarYearModeViewController.h; sourceTree = "<group>"; };
+		D23419821D050A6400DEEF38 /* ADCalendarYearModeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCalendarYearModeViewController.m; sourceTree = "<group>"; };
+		D23419831D050A6400DEEF38 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D23419841D050A6400DEEF38 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D23419861D050A6400DEEF38 /* NVZuesPriceCalendarDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVZuesPriceCalendarDataSource.h; sourceTree = "<group>"; };
+		D23419871D050A6400DEEF38 /* NVZuesPriceCalendarDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVZuesPriceCalendarDataSource.m; sourceTree = "<group>"; };
+		D23419881D050A6400DEEF38 /* NVZuesPriceCalendarDayCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVZuesPriceCalendarDayCell.h; sourceTree = "<group>"; };
+		D23419891D050A6400DEEF38 /* NVZuesPriceCalendarDayCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVZuesPriceCalendarDayCell.m; sourceTree = "<group>"; };
+		D234198A1D050A6400DEEF38 /* NVZuesPriceCalendarDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVZuesPriceCalendarDelegate.h; sourceTree = "<group>"; };
+		D234198B1D050A6400DEEF38 /* NVZuesPriceCalendarDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVZuesPriceCalendarDelegate.m; sourceTree = "<group>"; };
+		D234198D1D050A6400DEEF38 /* NVZuesPriceCalendarMonthModeDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVZuesPriceCalendarMonthModeDataSource.h; sourceTree = "<group>"; };
+		D234198E1D050A6400DEEF38 /* NVZuesPriceCalendarMonthModeDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVZuesPriceCalendarMonthModeDataSource.m; sourceTree = "<group>"; };
+		D234198F1D050A6400DEEF38 /* NVZuesPriceCalendarMonthModeDayCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVZuesPriceCalendarMonthModeDayCell.h; sourceTree = "<group>"; };
+		D23419901D050A6400DEEF38 /* NVZuesPriceCalendarMonthModeDayCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVZuesPriceCalendarMonthModeDayCell.m; sourceTree = "<group>"; };
+		D23419911D050A6400DEEF38 /* NVZuesPriceCalendarMonthModeDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVZuesPriceCalendarMonthModeDelegate.h; sourceTree = "<group>"; };
+		D23419921D050A6400DEEF38 /* NVZuesPriceCalendarMonthModeDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVZuesPriceCalendarMonthModeDelegate.m; sourceTree = "<group>"; };
+		D23419941D050A6400DEEF38 /* NVZuesPriceCalendarWeekModeDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVZuesPriceCalendarWeekModeDataSource.h; sourceTree = "<group>"; };
+		D23419951D050A6400DEEF38 /* NVZuesPriceCalendarWeekModeDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVZuesPriceCalendarWeekModeDataSource.m; sourceTree = "<group>"; };
+		D23419961D050A6400DEEF38 /* NVZuesPriceCalendarWeekModeDayCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVZuesPriceCalendarWeekModeDayCell.h; sourceTree = "<group>"; };
+		D23419971D050A6400DEEF38 /* NVZuesPriceCalendarWeekModeDayCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVZuesPriceCalendarWeekModeDayCell.m; sourceTree = "<group>"; };
+		D23419981D050A6400DEEF38 /* NVZuesPriceCalendarWeekModeDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVZuesPriceCalendarWeekModeDelegate.h; sourceTree = "<group>"; };
+		D23419991D050A6400DEEF38 /* NVZuesPriceCalendarWeekModeDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVZuesPriceCalendarWeekModeDelegate.m; sourceTree = "<group>"; };
+		D234199B1D050A6400DEEF38 /* UIView+Border.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Border.h"; sourceTree = "<group>"; };
+		D234199C1D050A6400DEEF38 /* UIView+Border.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Border.m"; sourceTree = "<group>"; };
+		D23419AB1D050C2900DEEF38 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E282F4AFF881888925D803DD /* Pods_ADFlowCalendarView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ADFlowCalendarView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E86BB26E3F9A46B645C644EF /* Pods-ADFlowCalendarView_Example-ADFlowCalendarView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADFlowCalendarView_Example-ADFlowCalendarView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ADFlowCalendarView_Example-ADFlowCalendarView_Tests/Pods-ADFlowCalendarView_Example-ADFlowCalendarView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F54A21306974EA46C87A344C /* Pods-ADFlowCalendarView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADFlowCalendarView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ADFlowCalendarView_Example/Pods-ADFlowCalendarView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		FBA6C28C389A424D42F69B45 /* Pods_ADFlowCalendarView_Example_ADFlowCalendarView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ADFlowCalendarView_Example_ADFlowCalendarView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6003F587195388D20070C39A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
+				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
+				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
+				DFBFEF8C39FE3E407E189CD9 /* Pods_ADFlowCalendarView_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6003F5AB195388D20070C39A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
+				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
+				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
+				631356DD7DCE6FB888A90760 /* Pods_ADFlowCalendarView_Example_ADFlowCalendarView_Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6003F581195388D10070C39A = {
+			isa = PBXGroup;
+			children = (
+				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
+				6003F593195388D20070C39A /* Example for ADFlowCalendarView */,
+				6003F5B5195388D20070C39A /* Tests */,
+				6003F58C195388D20070C39A /* Frameworks */,
+				6003F58B195388D20070C39A /* Products */,
+				900BD1F231AD05BB1A6F25F3 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		6003F58B195388D20070C39A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6003F58A195388D20070C39A /* ADFlowCalendarView_Example.app */,
+				6003F5AE195388D20070C39A /* ADFlowCalendarView_Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6003F58C195388D20070C39A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6003F58D195388D20070C39A /* Foundation.framework */,
+				6003F58F195388D20070C39A /* CoreGraphics.framework */,
+				6003F591195388D20070C39A /* UIKit.framework */,
+				6003F5AF195388D20070C39A /* XCTest.framework */,
+				E282F4AFF881888925D803DD /* Pods_ADFlowCalendarView_Example.framework */,
+				FBA6C28C389A424D42F69B45 /* Pods_ADFlowCalendarView_Example_ADFlowCalendarView_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6003F593195388D20070C39A /* Example for ADFlowCalendarView */ = {
+			isa = PBXGroup;
+			children = (
+				D234197D1D050A6400DEEF38 /* ADCalendarMonthModeViewController.h */,
+				D234197E1D050A6400DEEF38 /* ADCalendarMonthModeViewController.m */,
+				D234197F1D050A6400DEEF38 /* ADCalendarWeekModeViewController.h */,
+				D23419801D050A6400DEEF38 /* ADCalendarWeekModeViewController.m */,
+				D23419811D050A6400DEEF38 /* ADCalendarYearModeViewController.h */,
+				D23419821D050A6400DEEF38 /* ADCalendarYearModeViewController.m */,
+				D23419831D050A6400DEEF38 /* AppDelegate.h */,
+				D23419841D050A6400DEEF38 /* AppDelegate.m */,
+				D23419851D050A6400DEEF38 /* NVZuesPriceCalendarImp */,
+				D234198C1D050A6400DEEF38 /* NVZuesPriceCalendarMonthModeImp */,
+				D23419931D050A6400DEEF38 /* NVZuesPriceCalendarWeekModeImp */,
+				D234199A1D050A6400DEEF38 /* UIView-Borders */,
+				6003F5A8195388D20070C39A /* Images.xcassets */,
+				D23419AB1D050C2900DEEF38 /* LaunchScreen.storyboard */,
+				6003F594195388D20070C39A /* Supporting Files */,
+			);
+			name = "Example for ADFlowCalendarView";
+			path = ADFlowCalendarView;
+			sourceTree = "<group>";
+		};
+		6003F594195388D20070C39A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6003F595195388D20070C39A /* ADFlowCalendarView-Info.plist */,
+				6003F596195388D20070C39A /* InfoPlist.strings */,
+				6003F599195388D20070C39A /* main.m */,
+				6003F59B195388D20070C39A /* ADFlowCalendarView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6003F5B5195388D20070C39A /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6003F5BB195388D20070C39A /* Tests.m */,
+				6003F5B6195388D20070C39A /* Supporting Files */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		6003F5B6195388D20070C39A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6003F5B7195388D20070C39A /* Tests-Info.plist */,
+				6003F5B8195388D20070C39A /* InfoPlist.strings */,
+				606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				9CD3F33AB56E8AF5C233CCF1 /* ADFlowCalendarView.podspec */,
+				3DF2398071C0F5ABC3384703 /* README.md */,
+				07E7FB1D4F6D18BE6FB77617 /* LICENSE */,
+			);
+			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		900BD1F231AD05BB1A6F25F3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				991A4D98D9BF558D387C28D7 /* Pods-ADFlowCalendarView_Example.debug.xcconfig */,
+				F54A21306974EA46C87A344C /* Pods-ADFlowCalendarView_Example.release.xcconfig */,
+				818F65FACBA0CD9148B602E0 /* Pods-ADFlowCalendarView_Example-ADFlowCalendarView_Tests.debug.xcconfig */,
+				E86BB26E3F9A46B645C644EF /* Pods-ADFlowCalendarView_Example-ADFlowCalendarView_Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D23419851D050A6400DEEF38 /* NVZuesPriceCalendarImp */ = {
+			isa = PBXGroup;
+			children = (
+				D23419861D050A6400DEEF38 /* NVZuesPriceCalendarDataSource.h */,
+				D23419871D050A6400DEEF38 /* NVZuesPriceCalendarDataSource.m */,
+				D23419881D050A6400DEEF38 /* NVZuesPriceCalendarDayCell.h */,
+				D23419891D050A6400DEEF38 /* NVZuesPriceCalendarDayCell.m */,
+				D234198A1D050A6400DEEF38 /* NVZuesPriceCalendarDelegate.h */,
+				D234198B1D050A6400DEEF38 /* NVZuesPriceCalendarDelegate.m */,
+			);
+			path = NVZuesPriceCalendarImp;
+			sourceTree = "<group>";
+		};
+		D234198C1D050A6400DEEF38 /* NVZuesPriceCalendarMonthModeImp */ = {
+			isa = PBXGroup;
+			children = (
+				D234198D1D050A6400DEEF38 /* NVZuesPriceCalendarMonthModeDataSource.h */,
+				D234198E1D050A6400DEEF38 /* NVZuesPriceCalendarMonthModeDataSource.m */,
+				D234198F1D050A6400DEEF38 /* NVZuesPriceCalendarMonthModeDayCell.h */,
+				D23419901D050A6400DEEF38 /* NVZuesPriceCalendarMonthModeDayCell.m */,
+				D23419911D050A6400DEEF38 /* NVZuesPriceCalendarMonthModeDelegate.h */,
+				D23419921D050A6400DEEF38 /* NVZuesPriceCalendarMonthModeDelegate.m */,
+			);
+			path = NVZuesPriceCalendarMonthModeImp;
+			sourceTree = "<group>";
+		};
+		D23419931D050A6400DEEF38 /* NVZuesPriceCalendarWeekModeImp */ = {
+			isa = PBXGroup;
+			children = (
+				D23419941D050A6400DEEF38 /* NVZuesPriceCalendarWeekModeDataSource.h */,
+				D23419951D050A6400DEEF38 /* NVZuesPriceCalendarWeekModeDataSource.m */,
+				D23419961D050A6400DEEF38 /* NVZuesPriceCalendarWeekModeDayCell.h */,
+				D23419971D050A6400DEEF38 /* NVZuesPriceCalendarWeekModeDayCell.m */,
+				D23419981D050A6400DEEF38 /* NVZuesPriceCalendarWeekModeDelegate.h */,
+				D23419991D050A6400DEEF38 /* NVZuesPriceCalendarWeekModeDelegate.m */,
+			);
+			path = NVZuesPriceCalendarWeekModeImp;
+			sourceTree = "<group>";
+		};
+		D234199A1D050A6400DEEF38 /* UIView-Borders */ = {
+			isa = PBXGroup;
+			children = (
+				D234199B1D050A6400DEEF38 /* UIView+Border.h */,
+				D234199C1D050A6400DEEF38 /* UIView+Border.m */,
+			);
+			path = "UIView-Borders";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6003F589195388D20070C39A /* ADFlowCalendarView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "ADFlowCalendarView_Example" */;
+			buildPhases = (
+				05B2F53BCAF110D376FD70CF /* Check Pods Manifest.lock */,
+				6003F586195388D20070C39A /* Sources */,
+				6003F587195388D20070C39A /* Frameworks */,
+				6003F588195388D20070C39A /* Resources */,
+				910FD950E074D34F479D5E62 /* Embed Pods Frameworks */,
+				2BB7F193B0BF1A8CD7E1B82C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ADFlowCalendarView_Example;
+			productName = ADFlowCalendarView;
+			productReference = 6003F58A195388D20070C39A /* ADFlowCalendarView_Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6003F5AD195388D20070C39A /* ADFlowCalendarView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "ADFlowCalendarView_Tests" */;
+			buildPhases = (
+				5A627E497B8BE12FFF14F8BE /* Check Pods Manifest.lock */,
+				6003F5AA195388D20070C39A /* Sources */,
+				6003F5AB195388D20070C39A /* Frameworks */,
+				6003F5AC195388D20070C39A /* Resources */,
+				FE969DF41557459AF05C78EC /* Embed Pods Frameworks */,
+				CB86A86D155AAB2181968B5E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6003F5B4195388D20070C39A /* PBXTargetDependency */,
+			);
+			name = ADFlowCalendarView_Tests;
+			productName = ADFlowCalendarViewTests;
+			productReference = 6003F5AE195388D20070C39A /* ADFlowCalendarView_Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6003F582195388D10070C39A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AD;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "崔盼军";
+				TargetAttributes = {
+					6003F5AD195388D20070C39A = {
+						TestTargetID = 6003F589195388D20070C39A;
+					};
+				};
+			};
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "ADFlowCalendarView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6003F581195388D10070C39A;
+			productRefGroup = 6003F58B195388D20070C39A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6003F589195388D20070C39A /* ADFlowCalendarView_Example */,
+				6003F5AD195388D20070C39A /* ADFlowCalendarView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6003F588195388D20070C39A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D23419AC1D050C2900DEEF38 /* LaunchScreen.storyboard in Resources */,
+				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6003F5AC195388D20070C39A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05B2F53BCAF110D376FD70CF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2BB7F193B0BF1A8CD7E1B82C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ADFlowCalendarView_Example/Pods-ADFlowCalendarView_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A627E497B8BE12FFF14F8BE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		910FD950E074D34F479D5E62 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ADFlowCalendarView_Example/Pods-ADFlowCalendarView_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB86A86D155AAB2181968B5E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ADFlowCalendarView_Example-ADFlowCalendarView_Tests/Pods-ADFlowCalendarView_Example-ADFlowCalendarView_Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE969DF41557459AF05C78EC /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ADFlowCalendarView_Example-ADFlowCalendarView_Tests/Pods-ADFlowCalendarView_Example-ADFlowCalendarView_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6003F586195388D20070C39A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F59A195388D20070C39A /* main.m in Sources */,
+				D23419A11D050A6400DEEF38 /* NVZuesPriceCalendarDataSource.m in Sources */,
+				D23419A21D050A6400DEEF38 /* NVZuesPriceCalendarDayCell.m in Sources */,
+				D23419A31D050A6400DEEF38 /* NVZuesPriceCalendarDelegate.m in Sources */,
+				D234199F1D050A6400DEEF38 /* ADCalendarYearModeViewController.m in Sources */,
+				D23419A61D050A6400DEEF38 /* NVZuesPriceCalendarMonthModeDelegate.m in Sources */,
+				D23419AA1D050A6400DEEF38 /* UIView+Border.m in Sources */,
+				D23419A71D050A6400DEEF38 /* NVZuesPriceCalendarWeekModeDataSource.m in Sources */,
+				D23419A41D050A6400DEEF38 /* NVZuesPriceCalendarMonthModeDataSource.m in Sources */,
+				D234199D1D050A6400DEEF38 /* ADCalendarMonthModeViewController.m in Sources */,
+				D23419A51D050A6400DEEF38 /* NVZuesPriceCalendarMonthModeDayCell.m in Sources */,
+				D23419A81D050A6400DEEF38 /* NVZuesPriceCalendarWeekModeDayCell.m in Sources */,
+				D234199E1D050A6400DEEF38 /* ADCalendarWeekModeViewController.m in Sources */,
+				D23419A91D050A6400DEEF38 /* NVZuesPriceCalendarWeekModeDelegate.m in Sources */,
+				D23419A01D050A6400DEEF38 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6003F5AA195388D20070C39A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6003F589195388D20070C39A /* ADFlowCalendarView_Example */;
+			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6003F596195388D20070C39A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6003F597195388D20070C39A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6003F5B8195388D20070C39A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6003F5B9195388D20070C39A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6003F5BD195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6003F5BE195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6003F5C0195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 991A4D98D9BF558D387C28D7 /* Pods-ADFlowCalendarView_Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ADFlowCalendarView/ADFlowCalendarView-Prefix.pch";
+				INFOPLIST_FILE = "ADFlowCalendarView/ADFlowCalendarView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6003F5C1195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F54A21306974EA46C87A344C /* Pods-ADFlowCalendarView_Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ADFlowCalendarView/ADFlowCalendarView-Prefix.pch";
+				INFOPLIST_FILE = "ADFlowCalendarView/ADFlowCalendarView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6003F5C3195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 818F65FACBA0CD9148B602E0 /* Pods-ADFlowCalendarView_Example-ADFlowCalendarView_Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ADFlowCalendarView_Example.app/ADFlowCalendarView_Example";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6003F5C4195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E86BB26E3F9A46B645C644EF /* Pods-ADFlowCalendarView_Example-ADFlowCalendarView_Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ADFlowCalendarView_Example.app/ADFlowCalendarView_Example";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "ADFlowCalendarView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5BD195388D20070C39A /* Debug */,
+				6003F5BE195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "ADFlowCalendarView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5C0195388D20070C39A /* Debug */,
+				6003F5C1195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "ADFlowCalendarView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5C3195388D20070C39A /* Debug */,
+				6003F5C4195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6003F582195388D10070C39A /* Project object */;
+}
