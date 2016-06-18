@@ -1,6 +1,5 @@
 # ADFlowCalendarView
 
-[![CI Status](http://img.shields.io/travis/崔盼军/ADFlowCalendarView.svg?style=flat)](https://travis-ci.org/崔盼军/ADFlowCalendarView)
 [![Version](https://img.shields.io/cocoapods/v/ADFlowCalendarView.svg?style=flat)](http://cocoapods.org/pods/ADFlowCalendarView)
 [![License](https://img.shields.io/cocoapods/l/ADFlowCalendarView.svg?style=flat)](http://cocoapods.org/pods/ADFlowCalendarView)
 [![Platform](https://img.shields.io/cocoapods/p/ADFlowCalendarView.svg?style=flat)](http://cocoapods.org/pods/ADFlowCalendarView)
@@ -22,7 +21,7 @@ pod "ADFlowCalendarView"
 
 ## Author
 
-崔盼军, cuipanjun@meituan.com
+Andy Cui, andy380743909@gmail.com
 
 ## License
 
