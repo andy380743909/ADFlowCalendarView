@@ -19,6 +19,12 @@ it, simply add the following line to your Podfile:
 pod "ADFlowCalendarView"
 ```
 
+##  ScreenShots
+<img src="https://raw.githubusercontent.com/andy380743909/ADFlowCalendarView/master/Example/ADFlowCalendarView/ADFlowCalendar-Screenshots/ScreenShot-1.png" width=160>
+<img src="https://raw.githubusercontent.com/andy380743909/ADFlowCalendarView/master/Example/ADFlowCalendarView/ADFlowCalendar-Screenshots/ScreenShot-2.png" width=160>
+<img src="https://raw.githubusercontent.com/andy380743909/ADFlowCalendarView/master/Example/ADFlowCalendarView/ADFlowCalendar-Screenshots/ScreenShot-3.png" width=160>
+<img src="https://raw.githubusercontent.com/andy380743909/ADFlowCalendarView/master/Example/ADFlowCalendarView/ADFlowCalendar-Screenshots/ScreenShot-4.png" width=160>
+
 ## Author
 
 Andy Cui, andy380743909@gmail.com
