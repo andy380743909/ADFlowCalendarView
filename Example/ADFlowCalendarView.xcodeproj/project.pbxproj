@@ -34,6 +34,10 @@
 		D23419A91D050A6400DEEF38 /* NVZuesPriceCalendarWeekModeDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D23419991D050A6400DEEF38 /* NVZuesPriceCalendarWeekModeDelegate.m */; };
 		D23419AA1D050A6400DEEF38 /* UIView+Border.m in Sources */ = {isa = PBXBuildFile; fileRef = D234199C1D050A6400DEEF38 /* UIView+Border.m */; };
 		D23419AC1D050C2900DEEF38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D23419AB1D050C2900DEEF38 /* LaunchScreen.storyboard */; };
+		D275B3D31D1631D800EFBA87 /* ScreenShot-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D275B3CF1D1631D700EFBA87 /* ScreenShot-1.png */; };
+		D275B3D41D1631D800EFBA87 /* ScreenShot-2.png in Resources */ = {isa = PBXBuildFile; fileRef = D275B3D01D1631D800EFBA87 /* ScreenShot-2.png */; };
+		D275B3D51D1631D800EFBA87 /* ScreenShot-3.png in Resources */ = {isa = PBXBuildFile; fileRef = D275B3D11D1631D800EFBA87 /* ScreenShot-3.png */; };
+		D275B3D61D1631D800EFBA87 /* ScreenShot-4.png in Resources */ = {isa = PBXBuildFile; fileRef = D275B3D21D1631D800EFBA87 /* ScreenShot-4.png */; };
 		DFBFEF8C39FE3E407E189CD9 /* Pods_ADFlowCalendarView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E282F4AFF881888925D803DD /* Pods_ADFlowCalendarView_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -97,6 +101,10 @@
 		D234199B1D050A6400DEEF38 /* UIView+Border.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Border.h"; sourceTree = "<group>"; };
 		D234199C1D050A6400DEEF38 /* UIView+Border.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Border.m"; sourceTree = "<group>"; };
 		D23419AB1D050C2900DEEF38 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D275B3CF1D1631D700EFBA87 /* ScreenShot-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ScreenShot-1.png"; sourceTree = "<group>"; };
+		D275B3D01D1631D800EFBA87 /* ScreenShot-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ScreenShot-2.png"; sourceTree = "<group>"; };
+		D275B3D11D1631D800EFBA87 /* ScreenShot-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ScreenShot-3.png"; sourceTree = "<group>"; };
+		D275B3D21D1631D800EFBA87 /* ScreenShot-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ScreenShot-4.png"; sourceTree = "<group>"; };
 		E282F4AFF881888925D803DD /* Pods_ADFlowCalendarView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ADFlowCalendarView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E86BB26E3F9A46B645C644EF /* Pods-ADFlowCalendarView_Example-ADFlowCalendarView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADFlowCalendarView_Example-ADFlowCalendarView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ADFlowCalendarView_Example-ADFlowCalendarView_Tests/Pods-ADFlowCalendarView_Example-ADFlowCalendarView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F54A21306974EA46C87A344C /* Pods-ADFlowCalendarView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADFlowCalendarView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ADFlowCalendarView_Example/Pods-ADFlowCalendarView_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -166,6 +174,7 @@
 		6003F593195388D20070C39A /* Example for ADFlowCalendarView */ = {
 			isa = PBXGroup;
 			children = (
+				D275B3CE1D1631D700EFBA87 /* ADFlowCalendar-Screenshots */,
 				D234197D1D050A6400DEEF38 /* ADCalendarMonthModeViewController.h */,
 				D234197E1D050A6400DEEF38 /* ADCalendarMonthModeViewController.m */,
 				D234197F1D050A6400DEEF38 /* ADCalendarWeekModeViewController.h */,
@@ -285,6 +294,17 @@
 			path = "UIView-Borders";
 			sourceTree = "<group>";
 		};
+		D275B3CE1D1631D700EFBA87 /* ADFlowCalendar-Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				D275B3CF1D1631D700EFBA87 /* ScreenShot-1.png */,
+				D275B3D01D1631D800EFBA87 /* ScreenShot-2.png */,
+				D275B3D11D1631D800EFBA87 /* ScreenShot-3.png */,
+				D275B3D21D1631D800EFBA87 /* ScreenShot-4.png */,
+			);
+			path = "ADFlowCalendar-Screenshots";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -368,9 +388,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D275B3D41D1631D800EFBA87 /* ScreenShot-2.png in Resources */,
 				D23419AC1D050C2900DEEF38 /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				D275B3D61D1631D800EFBA87 /* ScreenShot-4.png in Resources */,
+				D275B3D31D1631D800EFBA87 /* ScreenShot-1.png in Resources */,
+				D275B3D51D1631D800EFBA87 /* ScreenShot-3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
