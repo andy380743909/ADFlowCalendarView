@@ -21,12 +21,10 @@ s.description      = <<-DESC
 This maybe the most customizable calendar view with builtin three common display mode,Year mode, Month mode, and Week Mode.It's UICollectionView backed, mimix the classic UITableView Datasource delegate design.You can easily supply you custom Datasouce and delegate to customize the UI, add your additional feature to it.
 DESC
 
-s.homepage         = 'https://github.com/andy380743909/ADFlowCalendarView'
-# s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+s.homepage         = 'http://git.sankuai.com/projects/IOS/repos/adflowcalendarview/browse'
 s.license          = { :type => 'MIT', :file => 'LICENSE' }
-s.author           = { 'Andy Cui' => 'andy380743909@gmail.com' }
-s.source           = { :git => 'https://github.com/andy380743909/ADFlowCalendarView.git', :tag => s.version.to_s }
-# s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+s.author           = { 'cuipanjun' => 'cuipanjun@meituan.com' }
+s.source           = { :git => 'ssh://git@git.sankuai.com/ios/adflowcalendarview.git', :tag => s.version.to_s }
 
 s.ios.deployment_target = '7.0'
 
