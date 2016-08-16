@@ -5,20 +5,17 @@
 //  Created by 崔盼军 on 16/4/19.
 //  Copyright © 2016年 崔盼军. All rights reserved.
 //
-
-#import <UIKit/UIKit.h>
-
 #import "ADFlowCalendarViewDataSource.h"
 #import "ADFlowCalendarViewDelegate.h"
+@class ADFlowCalendarCollectionViewLayout;
+@class ADFlowCalendarCollectionView;
+@class ADFlowCalendarWeekdaySymbolsHeadView;
+@class ADFlowCalendarDayModel;
+@class ADFlowCalendarSectionData;
 
-#import "ADFlowCalendarCollectionView.h"
-#import "ADFlowCalendarCollectionViewLayout.h"
 
-#import "ADFlowCalendarDayCell.h"
-#import "ADFlowCalendarWeekdaySymbolsHeadView.h"
 
-#import "ADFlowCalendarSectionData.h"
-#import "ADFlowCalendarDayModel.h"
+
 
 NS_ASSUME_NONNULL_BEGIN
 
