@@ -5,25 +5,17 @@
 //  Created by 崔盼军 on 16/4/19.
 //  Copyright © 2016年 崔盼军. All rights reserved.
 //
+
 #import "ADFlowCalendarViewDataSource.h"
 #import "ADFlowCalendarViewDelegate.h"
-@class ADFlowCalendarCollectionViewLayout;
-@class ADFlowCalendarCollectionView;
-@class ADFlowCalendarWeekdaySymbolsHeadView;
-@class ADFlowCalendarDayModel;
-@class ADFlowCalendarSectionData;
 
-
-
-
+#import "ADFlowCalendarCollectionViewLayout.h"
+#import "ADFlowCalendarCollectionView.h"
+#import "ADFlowCalendarWeekdaySymbolsHeadView.h"
+#import "ADFlowCalendarDayModel.h"
+#import "ADFlowCalendarSectionData.h"
 
 NS_ASSUME_NONNULL_BEGIN
-
-//typedef NS_ENUM(NSInteger, ADFlowCalendarViewDisplayMode) {
-//    ADFlowCalendarViewDisplayModeWeek,
-//    ADFlowCalendarViewDisplayModeMonth,
-//    ADFlowCalendarViewDisplayModeYear
-//};
 
 @interface ADFlowCalendarView : UIView<UICollectionViewDataSource, UICollectionViewDelegate>
 
@@ -43,11 +35,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (nonnull Class<NSObject>)collectionViewClass;
 
-
 - (void)reloadData;
-
-
-//- (void)setWeekdaySymbolHeadViewHidden:(BOOL)hidden animated:(BOOL)animated;
 
 @end
 

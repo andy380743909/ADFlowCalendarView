@@ -12,12 +12,10 @@
 #import "NSCalendar+ADFlowCalendar.h"
 
 #import "ADFlowCalendarView.h"
-#import "ADFlowCalendarCollectionView.h"
+
 #import "ADFlowCalendarMonthHeadView.h"
 #import "NVZuesPriceCalendarDayCell.h"
 
-#import "ADFlowCalendarDayModel.h"
-#import "ADFlowCalendarSectionData.h"
 
 static NSString *cellReuseIdentifier = @"ADFlowCalendarDayCell";
 static NSString *monthHeadViewReuseIdentifier = @"ADFlowCalendarMonthHeadView";

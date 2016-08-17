@@ -9,8 +9,6 @@
 #ifndef ADFlowCalendarDefine_h
 #define ADFlowCalendarDefine_h
 
-#import "NSCalendar+ADFlowCalendar.h"
-
 typedef NS_ENUM(NSInteger, ADFlowCalendarDayRelation) {
     ADFlowCalendarDayRelationPast       = -1,
     ADFlowCalendarDayRelationFuture     = 1,

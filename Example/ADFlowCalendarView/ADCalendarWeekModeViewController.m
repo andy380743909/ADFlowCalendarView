@@ -11,10 +11,8 @@
 #import "UIView+Border.h"
 
 #import "ADFlowCalendarView.h"
-#import "ADFlowCalendarCollectionView.h"
+
 #import "ADWeekModeFlowCalendarViewLayout.h"
-#import "ADWeekModeFlowCalendarViewDataSource.h"
-#import "ADWeekModeFlowCalendarViewDelegate.h"
 
 #import "NVZuesPriceCalendarWeekModeDataSource.h"
 #import "NVZuesPriceCalendarWeekModeDayCell.h"

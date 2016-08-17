@@ -13,11 +13,9 @@
 
 #import "ADFlowCalendarView.h"
 #import "ADFlowCalendarMonthHeadView.h"
-#import "ADFlowCalendarCollectionView.h"
+
 #import "NVZuesPriceCalendarWeekModeDayCell.h"
 
-#import "ADFlowCalendarDayModel.h"
-#import "ADFlowCalendarSectionData.h"
 
 static NSString *cellReuseIdentifier = @"ADFlowCalendarDayCell";
 static NSString *monthHeadViewReuseIdentifier = @"ADFlowCalendarMonthHeadView";
