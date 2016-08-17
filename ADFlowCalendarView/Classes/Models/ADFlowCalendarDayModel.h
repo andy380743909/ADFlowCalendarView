@@ -6,7 +6,6 @@
 //  Copyright © 2016年 崔盼军. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
 
 #import "ADFlowCalendarDefine.h"
 

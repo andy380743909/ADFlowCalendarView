@@ -10,8 +10,6 @@
 
 #import "ADFlowCalendarView.h"
 
-#import "ADFlowCalendarDayModel.h"
-
 @implementation NVZuesPriceCalendarWeekModeDelegate
 
 - (instancetype)init{
