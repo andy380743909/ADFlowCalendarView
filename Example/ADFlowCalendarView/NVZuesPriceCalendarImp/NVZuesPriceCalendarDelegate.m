@@ -100,6 +100,26 @@
     
 }
 
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView
+{
+    NSLog(@"%s", __PRETTY_FUNCTION__);
+}
+
+- (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView
+{
+    NSLog(@"%s", __PRETTY_FUNCTION__);
+}
+
+- (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate
+{
+    NSLog(@"%s", __PRETTY_FUNCTION__);
+}
+
+- (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView
+{
+    NSLog(@"%s", __PRETTY_FUNCTION__);
+}
+
 #pragma mark - Mock Data
 
 - (NSDictionary *)MockPriceStockDict{
