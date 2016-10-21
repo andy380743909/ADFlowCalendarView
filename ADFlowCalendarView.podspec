@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name             = 'ADFlowCalendarView'
-s.version          = '0.2.0'
+s.version          = '0.2.1'
 s.summary          = 'A flexible calendar view with three modes Year mode, Month mode, and Week Mode'
 
 # This description is used to generate tags and improve search results.
