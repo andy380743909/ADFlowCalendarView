@@ -11,7 +11,7 @@
 typedef NS_ENUM(NSInteger, ADMonthModeFlowCalendarPaddingType) {
     ADMonthModeFlowCalendarPaddingNone,
     ADMonthModeFlowCalendarPaddingWeek,
-    ADMonthModeFlowCalendarPaddingMonth, /* unimplemented */
+    ADMonthModeFlowCalendarPaddingMonth, /* normal month */
     ADMonthModeFlowCalendarPaddingSixWeeks /* with this mode, we can keep the calendar has the same height rowHeight*6 */
 };
 

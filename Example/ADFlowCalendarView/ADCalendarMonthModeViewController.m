@@ -154,7 +154,8 @@
     NVZuesPriceCalendarMonthModeDataSource *dataSource = [[NVZuesPriceCalendarMonthModeDataSource alloc] init];
     dataSource.calendar = self.calendar;
     dataSource.today = self.today;
-    dataSource.paddingType = ADMonthModeFlowCalendarPaddingSixWeeks;
+//    dataSource.paddingType = ADMonthModeFlowCalendarPaddingSixWeeks;
+    dataSource.paddingType = ADMonthModeFlowCalendarPaddingMonth;
     
     NSDateComponents *monthCom = [NSDateComponents new];
     monthCom.era = 1;

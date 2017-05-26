@@ -125,6 +125,7 @@ static NSString *monthHeadViewReuseIdentifier = @"ADFlowCalendarMonthHeadView";
         {
             
         }
+            break;
         case ADMonthModeFlowCalendarPaddingSixWeeks:
         {
             
